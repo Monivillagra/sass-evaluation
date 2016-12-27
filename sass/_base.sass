@@ -1,0 +1,75 @@
+nav
+    background-color: $color-principal
+.lineaTitulo 
+    border-bottom: 1px solid $color-principal
+    padding-bottom: 8px
+    margin-bottom: 10px
+.botonImg
+    background-color: $color-principal
+    position: absolute
+    float: left
+    z-index: 3
+.botonImg:hover
+    background-color: $color-botonPopular
+    color: $texto-imagenes
+    font-weight: $texto-bold
+.textoLife
+    font-weight: $texto-bold
+.textOpacity
+    position: absolute
+    background-color: rgba(0, 0, 0, 0.33)
+    top: 70%
+    left: 0%
+    right: 0%
+    bottom: -4%
+    color: white
+.slider .indicators .indicator-item.active
+    background-color: $color-principal
+.textOpacity2
+    bottom: 84px
+    color: #FFFFFF
+    font-size: 14px
+    left: 0
+    background-color: rgba(0, 0, 0, 0.33)
+    position: relative
+    // font-size: 12px
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+.lineaDivision
+    border-bottom: 1px solid #dbdbdb
+.rating 
+    unicode-bidi: bidi-override
+    direction: rtl
+    float: left
+.rating > span
+    display: inline-block
+    position: relative
+    width: 1.1em
+    color: $texto-imagenes
+.rating > span:hover:before,
+.rating > span:hover ~ span:before 
+    content: "\2605"
+    position: absolute
+    color: $color-principal
+.textoRedes
+    display: inline-flex
+.redSocial
+    padding: 9%
+.face
+    @extend .redSocial
+    background-color: $face-logo
+.tt
+    @extend .redSocial
+    background-color: $tt-logo
+.rss
+    @extend .redSocial
+    background-color: $rss-logo
+.lineaTitulo2
+    border-bottom: 1px solid $color-principal
+    padding-bottom: 8px
+    margin-bottom: 10px
+a
+    color: $texto-imagenes
+span
+    color: $color-principal
